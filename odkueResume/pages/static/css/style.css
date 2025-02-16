@@ -1,0 +1,39 @@
+h1{
+    background-color:#56018D;
+    text-align:center;
+    color: white;
+}
+h2{
+    text-align:center;
+    color: black;
+}
+h3{
+    font-weight:normal;
+    
+}
+p{
+    padding-top:0;
+    padding-bottom:0;
+}
+#profile-pic{
+    height:300px;
+    width:300px;
+    display:block;
+    margin:auto;
+
+}
+
+.container{
+    display : grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.column { 
+    padding: 20px;
+    border: 1px;
+}
+
+.contact{
+    text-align:center;
+}
